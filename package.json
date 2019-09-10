@@ -1,5 +1,5 @@
 {
-  "name": "SqlServerInterface",
+  "name": "sql_server_interface",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
 }
