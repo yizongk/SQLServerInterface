@@ -4,7 +4,7 @@ const Hapi = require( "hapi" );
 const routes = require( "./routes" );
 
 // config is the arguement here
-const app = async config => {
+const server = async config => {
     const { host, port } = config;
 
     // create an instance of hapi
@@ -20,4 +20,4 @@ const app = async config => {
     return server;
 };
 
-module.exports = app;
+module.exports = server;

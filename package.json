@@ -1,15 +1,24 @@
 {
   "name": "sql_server_interface",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A test barebone",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yi Zong Kuang, with help from the tutorial on okta by David Neal",
   "license": "ISC",
   "dependencies": {
     "hapi": "^18.1.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yizongk/SqlServerInterface.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yizongk/SqlServerInterface/issues"
+  },
+  "homepage": "https://github.com/yizongk/SqlServerInterface#readme"
 }
